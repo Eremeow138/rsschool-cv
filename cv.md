@@ -32,7 +32,7 @@ My goal is to get a job at EPAM as a Front-end developer. I want to work in a co
   * Tolerance
   * And just real good man (I hope)
 ## Code examples
-'''
+```
 //JS works in one thread, therefore we can't say about asynchronous
 // But it works. But how does it work?
 // All works thanks to conception EventLoop and CallStack in JS:
@@ -54,4 +54,4 @@ baz();
 // 4. baz logs Third. The event loop sees the callstack is empty after baz returned, after which the callback gets added to the call stack.
 // 5. The callback logs Second.
 // look more here: https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
-'''
+```
