@@ -30,4 +30,5 @@ My goal is to get a job at EPAM as a Front-end developer. I want to work in a co
   * Teamwork
   * Humor
   * Tolerance
+  * And just real good man (I hope)
   
