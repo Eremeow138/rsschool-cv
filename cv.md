@@ -31,4 +31,18 @@ My goal is to get a job at EPAM as a Front-end developer. I want to work in a co
   * Humor
   * Tolerance
   * And just real good man (I hope)
-  
+## Code examples
+'''
+//JS works in one thread, therefore we can't say about asynchronous
+// So how does it work?
+// All works thanks to conception EventLoop and CallStack in JS
+
+const first = () => console.log('First');
+const second = () => console.log('Second');
+const third = () => console.log('Third');
+
+//Example below works without any surprises
+first()
+second()
+third()
+//Surprises starts when we want push "second()" in "setTimeout()"
