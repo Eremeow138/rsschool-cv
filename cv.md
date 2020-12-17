@@ -80,4 +80,4 @@ Finished Front-end courses [Grampus](https://grampus-school.ru/frontend/online/)
 
 ## English level
 
-I rate my level of English as A0, but I improve my English everyday. 
+I rate my level of English as **A0**, but I improve my English everyday. 
