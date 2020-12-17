@@ -10,27 +10,6 @@
 ## About me
 My goal is to get a job at EPAM as a Front-end developer. I want to work in a cool team and take maximum knowledge from it. I want to learn. I have such important qualities as kindness, honesty, stress resistance. 
 
-## Skills
-* **Hard skills**
-  * Basic HTML
-  * Basic CSS
-  * Basic JS
-  * Basic PUG
-  * Basic SCSS
-  * Basic JQuery
-  * Basic Git
-  * Basic BEM
-  
-* **Soft skills**
-  * Punctuality
-  * Adaptability
-  * Verbal communication
-  * Non-verbal communication
-  * Discipline
-  * Teamwork
-  * Humor
-  * Tolerance
-  * And just real good man (I hope)
 ## Code examples
 ```
 //JS works in one thread, therefore we can't say about asynchronous
@@ -55,3 +34,27 @@ baz();
 // 5. The callback logs Second.
 // look more here: https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
 ```
+
+## Skills
+* **Hard skills**
+  * Basic HTML
+  * Basic CSS
+  * Basic JS
+  * Basic PUG
+  * Basic SCSS
+  * Basic JQuery
+  * Basic Git
+  * Basic BEM
+  
+* **Soft skills**
+  * Punctuality
+  * Adaptability
+  * Verbal communication
+  * Non-verbal communication
+  * Discipline
+  * Teamwork
+  * Humor
+  * Tolerance
+  * And just real good man (I hope)
+  
+  
