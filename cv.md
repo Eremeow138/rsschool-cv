@@ -62,10 +62,10 @@ baz();
 ### Landing Pages
 * Freight Transportation
   * [GitHub](https://github.com/Eremeow138/freight_transportation)
-  * [On hostig](https://eremeow.ru/projects/freight_transportation/index.html)
+  * [On hosting](https://eremeow.ru/projects/freight_transportation/index.html)
 * HouseVOP
   * [GitHub](https://github.com/Eremeow138/house_vop)
-  * [On hostig](https://eremeow.ru/projects/house_vop/index.html)
+  * [On hosting](https://eremeow.ru/projects/house_vop/index.html)
 * Portfolio
   * [GitHub](https://github.com/Eremeow138/portfolio)
-  * [On hostig](https://eremeow.ru/)
+  * [On hosting](https://eremeow.ru/)
