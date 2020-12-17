@@ -59,8 +59,8 @@ baz();
   
 ## Work experience
 
-###Landing Pages
+### Landing Pages
 * Freight Transportation
- * [GitHub](https://github.com/Eremeow138/freight_transportation)
- * [On hostig](https://eremeow.ru/projects/freight_transportation/index.html)
+  * [GitHub](https://github.com/Eremeow138/freight_transportation)
+  * [On hostig](https://eremeow.ru/projects/freight_transportation/index.html)
 
