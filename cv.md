@@ -75,3 +75,7 @@ I have uncompleted higher education (only 3 years).
 I studied in [Irkutsk National Research Technical University](http://www.istu.edu/) in Faculty of Cybernetic, and my speciality is *automated information processing systems*.
 
 Finished Front-end courses [Grampus](https://grampus-school.ru/frontend/online/)
+
+## English level
+
+I rate my level of English as A0, but I improve my English everyday. 
