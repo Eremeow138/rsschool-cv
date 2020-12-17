@@ -69,3 +69,9 @@ baz();
 * Portfolio
   * [GitHub](https://github.com/Eremeow138/portfolio)
   * [On hosting](https://eremeow.ru/)
+
+## Education 
+I have uncompleted higher education (only 3 years). 
+I studied in [Irkutsk National Research Technical University](http://www.istu.edu/) in Faculty of Cybernetic, and my speciality is *automated information processing systems*.
+
+Finished Front-end courses [Grampus](https://grampus-school.ru/frontend/online/)
