@@ -73,93 +73,71 @@
     url("../fonts/Roboto/Roboto-Medium.svg#Roboto") format("svg");
 }
 @font-face {
-    font-family: "portfolio_icons";
-    src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w");
-    src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w#iefix")
-        format("embedded-opentype"),
-      url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.ttf?vhkw9w")
-        format("truetype"),
-      url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.woff?vhkw9w")
-        format("woff"),
-      url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.svg?vhkw9w#portfolio_icons")
-        format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-
-  [class^="icon_"],
-  [class*=" icon_"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: "portfolio_icons" !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  .icon_cat:before {
-    content: "\e90a";
-  }
-  .icon_eye:before {
-    content: "\e909";
-  }
-  .icon_network:before {
-    content: "\e902";
-  }
-  .icon_pin:before {
-    content: "\e903";
-  }
-  .icon_target:before {
-    content: "\e904";
-  }
-  .icon_policy:before {
-    content: "\e905";
-  }
-  .icon_offer:before {
-    content: "\e906";
-  }
-  .icon_project:before {
-    content: "\e907";
-  }
-  .icon_vk:before {
-    content: "\e908";
-  }
-  .icon_telegram:before {
-    content: "\e900";
-  }
-  .icon_instagram:before {
-    content: "\e901";
-  }
-/* Global variables */
-/* ======================================================================== */
-.txt_primary {
-  color: #7b8287;
-}
-.txt_success {
-  color: #36a566;
-}
-.txt_info {
-  color: #03a9f4;
-}
-.txt_warning {
-  color: #fca33e;
-}
-.txt_danger {
-  color: #ff1a1a;
+  font-family: "portfolio_icons";
+  src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w");
+  src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w#iefix")
+      format("embedded-opentype"),
+    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.ttf?vhkw9w")
+      format("truetype"),
+    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.woff?vhkw9w")
+      format("woff"),
+    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.svg?vhkw9w#portfolio_icons")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
-/* Grid */
-/* ======================================================================== */
-/* Form */
-/* ======================================================================== */
-/* Breakpoints */
+[class^="icon_"],
+[class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "portfolio_icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_cat:before {
+  content: "\e90a";
+}
+.icon_eye:before {
+  content: "\e909";
+}
+.icon_network:before {
+  content: "\e902";
+}
+.icon_pin:before {
+  content: "\e903";
+}
+.icon_target:before {
+  content: "\e904";
+}
+.icon_policy:before {
+  content: "\e905";
+}
+.icon_offer:before {
+  content: "\e906";
+}
+.icon_project:before {
+  content: "\e907";
+}
+.icon_vk:before {
+  content: "\e908";
+}
+.icon_telegram:before {
+  content: "\e900";
+}
+.icon_instagram:before {
+  content: "\e901";
+}
+
 * {
   box-sizing: border-box;
 }
@@ -627,14 +605,6 @@ p {
   margin: 0;
 }
 
-.wrapper {
-  font-size: 16px;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -auto auto;
-}
-
 .container_center {
   max-width: 1185px;
   padding: 0 15px;
@@ -935,80 +905,6 @@ p {
   font-size: 14px;
   letter-spacing: 2.1px;
   padding: 20px 46px 18px;
-}
-
-@font-face {
-  font-family: "portfolio_icons";
-  src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w");
-  src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w#iefix")
-      format("embedded-opentype"),
-    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.ttf?vhkw9w")
-      format("truetype"),
-    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.woff?vhkw9w")
-      format("woff"),
-    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.svg?vhkw9w#portfolio_icons")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-[class^="icon_"],
-[class*=" icon_"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "portfolio_icons" !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon_cat:before {
-  content: "";
-}
-
-.icon_eye:before {
-  content: "";
-}
-
-.icon_network:before {
-  content: "";
-}
-
-.icon_pin:before {
-  content: "";
-}
-
-.icon_target:before {
-  content: "";
-}
-
-.icon_policy:before {
-  content: "";
-}
-
-.icon_offer:before {
-  content: "";
-}
-
-.icon_project:before {
-  content: "";
-}
-
-.icon_vk:before {
-  content: "";
-}
-
-.icon_telegram:before {
-  content: "";
-}
-
-.icon_instagram:before {
-  content: "";
 }
 
 .modal {
