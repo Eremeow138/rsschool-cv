@@ -1035,12 +1035,12 @@ p {
 }
 @media (min-width: 768px) {
   .firstScreen {
-    padding-top: 250px;
+    padding-top: 170px;
   }
 }
 .firstScreen__content {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   text-align: center;
 }
@@ -1053,22 +1053,30 @@ p {
 .firstScreen__left {
   display: none;
   width: 100%;
-  padding-bottom: 19px;
-  justify-content: center;
 }
 @media (min-width: 768px) {
   .firstScreen__left {
     display: flex;
     width: 50%;
-    padding-right: 12px;
+    justify-content: center;
   }
 }
-.firstScreen__left img {
-  display: block;
+
+.firstScreen__avatar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 57%;
+  border: 10px solid #34547a;
 }
 .firstScreen__right {
+  margin-left: -50px;
   padding: 0 15px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 @media (min-width: 768px) {
   .firstScreen__right {
@@ -1096,12 +1104,12 @@ p {
 }
 .firstScreen__description {
   line-height: 1.65;
-  margin: 30px auto 52px;
-  max-width: 540px;
+  margin-bottom: 52px;
+  max-width: 440px;
 }
 @media (min-width: 768px) {
   .firstScreen__description {
-    margin: 0 auto 52px;
+    margin-bottom: 52px;
   }
 }
 
