@@ -1139,6 +1139,14 @@ p {
   text-align: left;
   max-width: 650px;
 }
+.clause__link {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+.clause__link:hover {
+  color: #34547a;
+}
 
 .section__title {
   color: #000000;
