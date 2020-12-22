@@ -1164,10 +1164,10 @@ p {
   text-align: left;
 }
 
-.thirdSection {
+.awards {
   background-color: #34547a;
 }
-.thirdSection__content {
+.awards__content {
   padding: 18px 0;
   color: #fff;
   display: flex;
@@ -1177,26 +1177,26 @@ p {
   margin-left: 0;
 }
 @media (min-width: 768px) {
-  .thirdSection__content {
+  .awards__content {
     padding: 18px 21px;
   }
 }
 @media (min-width: 1200px) {
-  .thirdSection__content {
+  .awards__content {
     justify-content: space-between;
     margin-left: -24px;
     padding: 76px 21px 68px;
   }
 }
-.thirdSection__item {
+.awards__item {
   display: flex;
   padding: 24px;
 }
-.thirdSection__image {
+.awards__image {
   font-size: 50px;
   margin-right: 20px;
 }
-.thirdSection__number {
+.awards__number {
   font-size: 21px;
   padding: 3px 0;
 }
