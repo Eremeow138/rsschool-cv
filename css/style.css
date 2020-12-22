@@ -1112,12 +1112,17 @@ p {
     margin-bottom: 52px;
   }
 }
-
-.secondSection__content {
+.code-example {
+  background-color: #eeeff1;
+}
+.code-example__content {
   padding: 48px 0 55px;
 }
+.code-example__title {
+  margin-bottom: 56px !important;
+}
 @media (min-width: 768px) {
-  .secondSection__content {
+  .code-example__content {
     padding: 92px 0 73px;
   }
 }
