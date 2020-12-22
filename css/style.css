@@ -1198,100 +1198,101 @@ p {
 .progress {
   height: 4px;
   background-color: #c4c4c4;
+  position: relative;
 }
+/* .progress__point {
+  position: absolute;
+} */
+/* .progress__point::before {
+  display: block;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 5px solid#34547a;
+  border: 5px dashed#34547a;
+  border: 5px double#34547a;
+} */
 .progress__bar {
   height: 4px;
   background-color: #34547a;
 }
 
-.fourthSection {
+.skill {
   padding-bottom: 30px;
+  overflow: hidden;
 }
 @media (min-width: 768px) {
-  .fourthSection {
+  .skill {
     padding-bottom: 96px;
   }
 }
-.fourthSection__content {
+.skill__content {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
   flex-direction: column-reverse;
 }
 @media (min-width: 992px) {
-  .fourthSection__content {
+  .skill__content {
     flex-direction: row;
   }
 }
 @media (min-width: 768px) {
-  .fourthSection__content {
+  .skill__content {
     margin-top: 102px;
   }
 }
-.fourthSection__left {
+.skill__place {
   margin: auto;
   padding: 0 20px;
   width: 100%;
 }
 @media (min-width: 768px) {
-  .fourthSection__left {
+  .skill__place {
     width: 80%;
   }
 }
 @media (min-width: 992px) {
-  .fourthSection__left {
+  .skill__place {
     width: 50%;
     margin: initial;
     padding: 0;
   }
 }
-.fourthSection__skillBox {
+.skill__skillBox {
   max-width: 100%;
   margin-left: 5px;
   padding-top: 15px;
 }
 @media (min-width: 768px) {
-  .fourthSection__skillBox {
+  .skill__skillBox {
     padding-top: 74px;
   }
 }
 @media (min-width: 991px) {
-  .fourthSection__skillBox {
+  .skill__skillBox {
     max-width: 445px;
   }
 }
-.fourthSection__skillList {
+.skill__skillList {
   display: flex;
   flex-direction: column;
   margin-top: 44px;
 }
-.fourthSection__skillName {
+.skill__skillName {
   margin-bottom: 15px;
 }
-.fourthSection__item {
+.skill__item {
   padding-bottom: 0;
   margin-bottom: 31px;
   position: relative;
 }
-.fourthSection__right {
-  margin: auto;
-  padding: 0 20px;
-  width: 100%;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  .fourthSection__right {
-    width: 80%;
-  }
-}
-@media (min-width: 992px) {
-  .fourthSection__right {
-    margin: initial;
-    width: 50%;
-    padding: 0 0 0 20px;
-  }
-}
-.fourthSection__image {
+
+.skill__image {
   max-width: 555px;
   margin: auto;
 }
