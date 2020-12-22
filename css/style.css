@@ -1135,7 +1135,7 @@ p {
   padding: 0 16px;
   margin: 16px 0;
 }
-.clause__description {
+.clause__description_left {
   text-align: left;
   max-width: 650px;
 }
