@@ -1302,7 +1302,6 @@ p {
   margin: auto;
 }
 
-
 .experience__content {
   overflow: hidden;
   /* display: flex;
@@ -1348,6 +1347,60 @@ p {
 }
 .experience__plate:hover .experience__select {
   opacity: 1;
+}
+
+.english {
+  background: #fff;
+}
+.english__content {
+  padding: 30px 0 50px;
+}
+@media (min-width: 768px) {
+  .english__content {
+    padding: 74px 0 100px;
+  }
+}
+
+.video:hover .video__play {
+  transform: scale(1.5);
+}
+.video:active .video__play {
+  transform: scale(0.8);
+}
+.video__wrapper {
+  max-width: 1110px;
+  margin: 30px auto auto;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 51.9%;
+}
+.video__wrapper .video__prev,
+.video__wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video__prev {
+  display: block;
+}
+.video__play {
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  cursor: pointer;
+  width: 50px;
+}
+@media (min-width: 768px) {
+  .video__play {
+    width: initial;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
 }
 
 @media (min-width: 768px) {

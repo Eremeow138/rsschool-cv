@@ -34,6 +34,7 @@ $(function () {
             var iframe = $('<iframe/>', {
                 'frameborder': '0',
                 'src': iframe_url,
+                'allow': 'autoplay'
             });
 
             // Выводим HTML5 плеер с YouTube поверх превьюшек
