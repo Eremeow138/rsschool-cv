@@ -1,13 +1,7 @@
-// Видео youtube для страницы
-// В html выглядит так
-// <div class="video__wrapper js_youtube" id="Y2uDpiHRz2Q">
-// 	<img src="img/путь_к_фоновому изображению" alt="" class="video__prev">
-// </div>
 
 
 console.log('script is run');
 $(function () {
-
     // Проверяем наличие элемента с классом js_youtube
     if ($(".js_youtube")) {
     	// Перебираем все элементы js_youtube
@@ -49,10 +43,6 @@ $(function () {
 function send(event, php){
     //тут мы получаем id элемента по вызванному событию, а потом кормим Jquery, чтобы получить нужный элемент
 // let idForm = '#'+event.target.id;
-// console.log(idForm);
-//
-// // console.log($(cName));
-// showLoader($(idForm), true);
     showLoader($('.contactForm'));
         // подготавливаем модальное окно с сообщением
         let modal = $('#info'),
@@ -72,9 +62,8 @@ function send(event, php){
         req.open('POST', php, true);
         req.onload = function() {
         	if (req.status >= 200 && req.status < 400) {
-        	json = JSON.parse(this.response); // Ебанный internet explorer 11
+        	json = JSON.parse(this.response); //  internet explorer 11
             	console.log(json);
-
             	// ЗДЕСЬ УКАЗЫВАЕМ ДЕЙСТВИЯ В СЛУЧАЕ УСПЕХА ИЛИ НЕУДАЧИ
             	if (json.result == "success") {
             		// Если сообщение отправлено
@@ -130,9 +119,6 @@ $('a[href^="#"]').click( function(e){
 
 // Показать лоадер при загрузке товаров
 function showLoader(el) {
-    // el.addClass('loaded');
-    // el.append('<div class="loader" />');
-    // console.log('show is run');
     el.addClass('loadingio-spinner-blocks-a76og8p27y7');
     el.append(`<div class="ldio-pef4zo238oc">
         <div style='left:38px;top:38px;animation-delay:0s'></div>
@@ -157,14 +143,4 @@ function hideLoader(el, time = 10) {
 
 
 
-function scrollbarWidth() {
-    var block = $('<div>').css({'height':'50px','width':'50px'}),
-        indicator = $('<div>').css({'height':'200px'});
 
-    $('body').append(block.append(indicator));
-    var w1 = $('div', block).innerWidth();
-    block.css('overflow-y', 'scroll');
-    var w2 = $('div', block).innerWidth();
-    $(block).remove();
-    return (w1 - w2);
-}
