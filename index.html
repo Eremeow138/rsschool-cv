@@ -376,7 +376,13 @@
                 текстов на латинице с начала XVI века.
               </div>
             </div>
-            <form class="eightSection__grid" action="mail.php" method="POST">
+            <form
+              class="eightSection__grid"
+              id="form"
+              method="POST"
+              enctype="multipart/form-data"
+              onsubmit="send(event, 'send.php')"
+            >
               <div class="eightSection__row">
                 <input
                   type="text"

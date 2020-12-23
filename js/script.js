@@ -46,137 +46,76 @@ $(function () {
 });
 
 // отправка и проверка формы + модальное окно
-function submitForm() {
+function send(event, php){
+    //тут мы получаем id элемента по вызванному событию, а потом кормим Jquery, чтобы получить нужный элемент
+// let idForm = '#'+event.target.id;
+// console.log(idForm);
+//
+// // console.log($(cName));
+// showLoader($(idForm), true);
+    showLoader($('.eightSection'));
+        // подготавливаем модальное окно с сообщением
+        let modal = $('#info'),
+            message = modal.find('.form__message');
 
-    let modal = $('#info'),
-        message = modal.find('.form__message');
-
-    modal.on('hidden.bs.modal', function (e) {
-        message.html('');
-    });
-
-    $('[type=submit]').on('click', function(e) {
-        // Отменяем стандартное действие.
-        // В данном случае отправку формы после нажатия унопки с type=submit
-        e.preventDefault();
-        // Можно отменить работу отельных библиотек и скриптов.
-        // e.stopPropagination();
-        console.log('push');
-
-
-        // Можно почитать что входит в стандартный аргумент event срабатывающий при событии
-        // console.log(e);
-
-        // Объявляем набор переменных для того чтобы с крипт работал исключительно с формой к которому относится кнопка
-        let form = $(this).closest('form'),
-            // Ищем обязательные поля
-            fields = form.find('[required]'),
-            // Записываем значение атрибута формы action
-            url = form.attr('action'),
-            // Хаписываем значения полей форм. Обязателен атрибут name у полей с уникальным значением
-            formData = form.serialize(),
-            // Создаем переменную для счетчика пустых полей
-            empty = 0;
-        // console.log(fields);
-        console.log(form);
-
-
-        // console.log(url);
-        console.log(formData);
-
-        // Перебираем обязательные поля формы
-        fields.each(function(index, el) {
-            // Проверяем пустое ли поле
-            // console.log("ioi");
-            // console.log($(this).val());
-            if ($(this).val() === '') {
-                // Увеличиваем счетчик полей на 1
-                empty++;
-            }
-
-            // Универсальная функция для проверки и визуализации пустых полей
-            checkFiels($(this));
+        modal.on('hidden.bs.modal', function (e) {
+            message.html('');
         });
+        console.log(modal);
+        // event.preventDefault ? event.preventDefault() : event.returnValue = false;
+        if (event.preventDefault) {
+            event.preventDefault();
+        }else{
+            event.returnValue = false;
+        }
+        var req = new XMLHttpRequest();
+        req.open('POST', php, true);
+        req.onload = function() {
+        	if (req.status >= 200 && req.status < 400) {
+        	json = JSON.parse(this.response); // Ебанный internet explorer 11
+            	console.log(json);
 
-        console.log(empty);
-
-        if (empty > 0) {
-            // hideLoader($('.eightSection'));
-            // Если пустых полей больше 1, останавливаем работу скрипта
-            return false;
-        } else {
-            showLoader($('.eightSection'));
-            // Если пустых полей нет, отправляем форму
-            // Либо стандартым методом с перезагрузкой страницы
-            // form.submit();
-            // Либо через аякс, без перезагрузки страницы
-            $.ajax({
-                // Ссылка на обработчик файла
-                url: url,
-                // Тип метода отправки
-                type: "POST",
-                // Тип данных
-                dataType: "html",
-                // Данные из формы
-                data: formData,
-                // Если все хорошо, то
-                success: function (response) {
-                    console.log('success');
-
+            	// ЗДЕСЬ УКАЗЫВАЕМ ДЕЙСТВИЯ В СЛУЧАЕ УСПЕХА ИЛИ НЕУДАЧИ
+            	if (json.result == "success") {
+            		// Если сообщение отправлено
+            		// alert("Сообщение отправлено");
                     // Пример с открытием окна
-                    modal.modal('show');
-
-                    // Пример с перенаправлением на другую страницу
-                    // document.location.href = "js.html";
-
-                    // Пример вывода текста в какой то блок
-                    message.html('Ваша форма успешно отправлена. <br> Мы свяжемся с вами в ближайшее время.');
+                    // hideLoader($(idForm),true);
                     hideLoader($('.eightSection'));
-                    // Дополнительно можно удалить текст из блока спустя какое то время
-                    // setTimeout(function () {
-                        //     message.html('');
-                        // }, 5000);
-
-                },
-
-                // Тут можно выполнить действия если произошла ошибка отправки
-                error: function (response) {
-                    console.log('error');
-
-                    // message.text('Произошла ошибка при отправке. <br> Попробуйте отправить форму позже.');
                     modal.modal('show');
-
-                    message.html('Произошла ошибка при отправке. <br> Попробуйте отправить форму позже.');
+                    message.html('Your message has been submitted successfully. <br> I will contact you soon.');
+            	} else {
+            		// Если произошла ошибка
+            		// alert("Ошибка. Сообщение не отправлено");
+                    // Пример с открытием окна
+                    // hideLoader($(idForm),true);
                     hideLoader($('.eightSection'));
-                    // setTimeout(function () {
-                        //     message.html('');
-                        // }, 5000);
+                    modal.modal('show');
+                    message.html('Error. Your message has not been submitted ');
+            	}
+            // Если не удалось связаться с php файлом
+            // } else {alert("Ошибка сервера. Номер: "+req.status);}};
+            } else {
 
-                }
-            });
-        }
+                // hideLoader($(idForm),true);
+                hideLoader($('.eightSection'));
 
-    });
+                 modal.modal('show'); message.html('Error on server. Number: '+req.status);}};
 
-    // Проверка заполненности полей на лету
-    $('input').on('keyup', function() {
-        checkFiels($(this));
-    });
+        // Если не удалось отправить запрос. Стоит блок на хостинге
+        // req.onerror = function() {alert("Ошибка отправки запроса");};
+        req.onerror = function() {
+            // hideLoader($(idForm),true);
+            hideLoader($('.eightSection'));
 
+             modal.modal('show'); message.html('Request sending error');};
+        console.log(event.target);
+        // console.log($('#form').submit());
+        req.send(new FormData(event.target));
+        // req.send(new FormData($('#form')));
+    // }
 
-    function checkFiels(el) {
-        // При разных условиях меняем классы и внешний вид полей
-        if (el.val() === '') {
-            el.addClass('invalid');
-            el.removeClass('valid');
-        } else {
-            el.removeClass('invalid');
-            el.addClass('valid');
-        }
-    }
 }
-
-submitForm();
 
 // Scroll to ID // Плавный скролл к элементу при нажатии на ссылку. В ссылке указываем ID элемента
 $('a[href^="#"]').click( function(e){
