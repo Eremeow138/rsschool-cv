@@ -1400,13 +1400,11 @@ p {
   }
 }
 
-@media (min-width: 768px) {
-  .education {
-    padding-bottom: 24px;
-  }
+.education {
+  padding-bottom: 24px;
 }
 .education__content {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -1415,6 +1413,7 @@ p {
 @media (min-width: 768px) {
   .education__content {
     padding: 31px 0;
+    display: flex;
   }
 }
 .education__item {
@@ -1428,6 +1427,7 @@ p {
 .education__item:last-child {
   width: 13%;
 }
+
 .education__item :hover {
   transform: scale(1.2);
 }
