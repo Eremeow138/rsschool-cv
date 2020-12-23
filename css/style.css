@@ -1038,11 +1038,9 @@ p {
 }
 .firstScreen__content {
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   text-align: center;
-  /* align-items: center;
-  justify-content: center; */
+
 }
 @media (min-width: 768px) {
   .firstScreen__content {
@@ -1051,8 +1049,6 @@ p {
   }
 }
 .firstScreen__left {
-  /* display: none; */
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -1210,22 +1206,6 @@ p {
   background-color: #c4c4c4;
   position: relative;
 }
-/* .progress__point {
-  position: absolute;
-} */
-/* .progress__point::before {
-  display: block;
-  content: "";
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  background-color: #fff;
-  border: 5px solid#34547a;
-  border: 5px dashed#34547a;
-  border: 5px double#34547a;
-} */
 .progress__bar {
   height: 4px;
   background-color: #34547a;
