@@ -128,7 +128,6 @@ $('a[href^="#"]').click( function(e){
 	return false;
 });
 
-replaceElement($('.firstScreen__left').children('img'),$('.firstScreen__left'),$('.firstScreen__title'),768);
 // Показать лоадер при загрузке товаров
 function showLoader(el) {
     // el.addClass('loaded');
@@ -156,30 +155,8 @@ function hideLoader(el, time = 10) {
     }, time);
 }
 
-function replaceElement(element, placeForDesctop, placeForMobile, width){
 
-      let resized = false;
 
-      let el = element, pd= placeForDesctop, pm = placeForMobile;
-      $(window).resize(function(event) {
-          let currentWidth = $(window).width()+scrollbarWidth();
-
-          // Запрещаем выполнение скриптов при смене только высоты вьюпорта (фикс для скролла в IOS и Android >=v.5)
-          if (resized == currentWidth) { return; }
-          resized = currentWidth;
-          // console.log();
-
-          if (currentWidth < width) {
-              console.log("isMobile");
-              pm.after(el);
-          } else {
-              console.log('isDesctop');
-              pd.append(el);
-          }
-
-      });
-
-}
 function scrollbarWidth() {
     var block = $('<div>').css({'height':'50px','width':'50px'}),
         indicator = $('<div>').css({'height':'200px'});
