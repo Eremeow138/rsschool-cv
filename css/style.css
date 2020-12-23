@@ -640,8 +640,8 @@ p {
 @media (min-width: 768px) {
   .header__logo {
     position: absolute;
-    left: 32px;
-    top: 148px;
+    left: -100px;
+    top: -100px;
   }
 }
 @media (min-width: 992px) {
@@ -763,19 +763,17 @@ p {
 .navbar__item {
   margin: 30px 15px;
 }
-.navbar__item:last-child {
-  margin-right: 8px;
-}
+
 @media (min-width: 768px) {
   .navbar__item {
     margin: 0 15px;
   }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar__item {
     margin: 0 21px;
   }
-}
+} */
 .navbar__link {
   transition: all 0.3s;
   font-weight: 400;
