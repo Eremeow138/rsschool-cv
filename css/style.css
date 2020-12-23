@@ -1238,7 +1238,7 @@ p {
 .skill__content {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 45px;
   flex-direction: column-reverse;
 }
 @media (min-width: 992px) {
@@ -1246,11 +1246,7 @@ p {
     flex-direction: row;
   }
 }
-@media (min-width: 768px) {
-  .skill__content {
-    margin-top: 102px;
-  }
-}
+
 .skill__place {
   margin: auto;
   padding: 0 20px;
@@ -1273,11 +1269,7 @@ p {
   margin-left: 5px;
   padding-top: 15px;
 }
-@media (min-width: 768px) {
-  .skill__skillBox {
-    padding-top: 74px;
-  }
-}
+
 @media (min-width: 991px) {
   .skill__skillBox {
     max-width: 445px;
