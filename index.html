@@ -29,7 +29,7 @@
               <a class="navbar__link" href="#english">Процесс</a>
             </li>
             <li class="navbar__item">
-              <a class="navbar__link" href="#eightSection">Контакты</a>
+              <a class="navbar__link" href="#contactForm">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -57,7 +57,7 @@
                   kindness, honesty, stress resistance.
                 </p>
               </div>
-              <a class="btn" href="#eightSection">write me</a>
+              <a class="btn" href="#contactForm">write me</a>
             </div>
           </div>
         </div>
@@ -364,54 +364,52 @@
         </div>
       </section>
       <!-- end english-->
-      <!-- begin eightSection-->
-      <section class="eightSection section" id="eightSection">
+      <!-- begin contactForm-->
+      <section class="contactForm section" id="contactForm">
         <div class="container_center">
-          <div class="eightSection__formBox">
+          <div class="contactForm__formBox">
             <div class="clause">
-              <h2 class="section__title">Хотите веб-сайт?</h2>
+              <h2 class="section__title">Message me</h2>
               <div class="clause__description">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-                текстов на латинице с начала XVI века.
+                You can contact me using the form below.
               </div>
             </div>
             <form
-              class="eightSection__grid"
+              class="contactForm__grid"
               id="form"
               method="POST"
               enctype="multipart/form-data"
               onsubmit="send(event, 'send.php')"
             >
-              <div class="eightSection__row">
+              <div class="contactForm__row">
                 <input
                   type="text"
                   name="name"
-                  placeholder="Ваше имя"
+                  placeholder="Your Name"
                   required="required"
                 />
               </div>
-              <div class="eightSection__row">
+              <div class="contactForm__row">
                 <input
                   type="text"
                   name="email"
-                  placeholder="Ваш e-mail"
+                  placeholder="Your e-mail"
                   required="required"
                 />
               </div>
-              <div class="eightSection__row eightSection__row_full">
+              <div class="contactForm__row contactForm__row_full">
                 <textarea
                   type="text"
                   name="message"
-                  placeholder="Сообщение"
+                  placeholder="Your message"
                 ></textarea>
               </div>
-              <button class="btn btn_form" type="submit">Отправить</button>
+              <button class="btn btn_form" type="submit">Submit</button>
             </form>
           </div>
         </div>
       </section>
-      <!-- end eightSection-->
+      <!-- end contactForm-->
       <!-- Begin Modal info-->
       <div class="modal modal-sm fade info" id="info">
         <div class="modal-dialog">

@@ -1446,52 +1446,52 @@ p {
   transition: all 1.5s;
 }
 
-.eightSection {
+.contactForm {
   background-color: #eeeff1;
 }
-.eightSection__formBox {
+.contactForm__formBox {
   max-width: 540px;
   margin: auto;
   padding: 20px 0;
 }
 @media (min-width: 768px) {
-  .eightSection__formBox {
+  .contactForm__formBox {
     padding: 71px 0;
   }
 }
-.eightSection__grid {
+.contactForm__grid {
   display: flex;
   flex-wrap: wrap;
   margin: 28px -15px;
   justify-content: center;
 }
-.eightSection__row {
+.contactForm__row {
   width: 100%;
   margin: 10px 15px;
 }
 @media (min-width: 768px) {
-  .eightSection__row {
+  .contactForm__row {
     width: calc(50% - 30px);
   }
 }
-.eightSection__row_full {
+.contactForm__row_full {
   width: 100%;
 }
-.eightSection__row textarea {
+.contactForm__row textarea {
   min-height: 175px;
   resize: none;
   margin-bottom: 35px;
 }
-.eightSection input:not([type]),
-.eightSection input[type="datetime"],
-.eightSection input[type="email"],
-.eightSection input[type="number"],
-.eightSection input[type="password"],
-.eightSection input[type="search"],
-.eightSection input[type="tel"],
-.eightSection input[type="text"],
-.eightSection input[type="url"],
-.eightSection textarea {
+.contactForm input:not([type]),
+.contactForm input[type="datetime"],
+.contactForm input[type="email"],
+.contactForm input[type="number"],
+.contactForm input[type="password"],
+.contactForm input[type="search"],
+.contactForm input[type="tel"],
+.contactForm input[type="text"],
+.contactForm input[type="url"],
+.contactForm textarea {
   width: 100%;
   background: #fff;
   padding: 17px 20px 16px;
@@ -1501,91 +1501,91 @@ p {
   font-family: "Roboto";
   transition: all 0.3s;
 }
-.eightSection input:not([type]):hover,
-.eightSection input[type="datetime"]:hover,
-.eightSection input[type="email"]:hover,
-.eightSection input[type="number"]:hover,
-.eightSection input[type="password"]:hover,
-.eightSection input[type="search"]:hover,
-.eightSection input[type="tel"]:hover,
-.eightSection input[type="text"]:hover,
-.eightSection input[type="url"]:hover,
-.eightSection textarea:hover {
+.contactForm input:not([type]):hover,
+.contactForm input[type="datetime"]:hover,
+.contactForm input[type="email"]:hover,
+.contactForm input[type="number"]:hover,
+.contactForm input[type="password"]:hover,
+.contactForm input[type="search"]:hover,
+.contactForm input[type="tel"]:hover,
+.contactForm input[type="text"]:hover,
+.contactForm input[type="url"]:hover,
+.contactForm textarea:hover {
   border: 1px solid #ddd;
   background-color: #ffffff;
 }
-.eightSection input:not([type]):focus,
-.eightSection input[type="datetime"]:focus,
-.eightSection input[type="email"]:focus,
-.eightSection input[type="number"]:focus,
-.eightSection input[type="password"]:focus,
-.eightSection input[type="search"]:focus,
-.eightSection input[type="tel"]:focus,
-.eightSection input[type="text"]:focus,
-.eightSection input[type="url"]:focus,
-.eightSection textarea:focus {
+.contactForm input:not([type]):focus,
+.contactForm input[type="datetime"]:focus,
+.contactForm input[type="email"]:focus,
+.contactForm input[type="number"]:focus,
+.contactForm input[type="password"]:focus,
+.contactForm input[type="search"]:focus,
+.contactForm input[type="tel"]:focus,
+.contactForm input[type="text"]:focus,
+.contactForm input[type="url"]:focus,
+.contactForm textarea:focus {
   border: 1px solid #ddd;
   background-color: #ffffff;
 }
-.eightSection input:not([type]).invalid,
-.eightSection input[type="datetime"].invalid,
-.eightSection input[type="email"].invalid,
-.eightSection input[type="number"].invalid,
-.eightSection input[type="password"].invalid,
-.eightSection input[type="search"].invalid,
-.eightSection input[type="tel"].invalid,
-.eightSection input[type="text"].invalid,
-.eightSection input[type="url"].invalid,
-.eightSection textarea.invalid {
+.contactForm input:not([type]).invalid,
+.contactForm input[type="datetime"].invalid,
+.contactForm input[type="email"].invalid,
+.contactForm input[type="number"].invalid,
+.contactForm input[type="password"].invalid,
+.contactForm input[type="search"].invalid,
+.contactForm input[type="tel"].invalid,
+.contactForm input[type="text"].invalid,
+.contactForm input[type="url"].invalid,
+.contactForm textarea.invalid {
   background-color: #fff0f0;
   border: 1px solid red;
 }
-.eightSection input:not([type])::-webkit-input-placeholder,
-.eightSection input[type="datetime"]::-webkit-input-placeholder,
-.eightSection input[type="email"]::-webkit-input-placeholder,
-.eightSection input[type="number"]::-webkit-input-placeholder,
-.eightSection input[type="password"]::-webkit-input-placeholder,
-.eightSection input[type="search"]::-webkit-input-placeholder,
-.eightSection input[type="tel"]::-webkit-input-placeholder,
-.eightSection input[type="text"]::-webkit-input-placeholder,
-.eightSection input[type="url"]::-webkit-input-placeholder,
-.eightSection textarea::-webkit-input-placeholder {
+.contactForm input:not([type])::-webkit-input-placeholder,
+.contactForm input[type="datetime"]::-webkit-input-placeholder,
+.contactForm input[type="email"]::-webkit-input-placeholder,
+.contactForm input[type="number"]::-webkit-input-placeholder,
+.contactForm input[type="password"]::-webkit-input-placeholder,
+.contactForm input[type="search"]::-webkit-input-placeholder,
+.contactForm input[type="tel"]::-webkit-input-placeholder,
+.contactForm input[type="text"]::-webkit-input-placeholder,
+.contactForm input[type="url"]::-webkit-input-placeholder,
+.contactForm textarea::-webkit-input-placeholder {
   color: #5f5d5d;
 }
-.eightSection input:not([type]):-moz-placeholder,
-.eightSection input[type="datetime"]:-moz-placeholder,
-.eightSection input[type="email"]:-moz-placeholder,
-.eightSection input[type="number"]:-moz-placeholder,
-.eightSection input[type="password"]:-moz-placeholder,
-.eightSection input[type="search"]:-moz-placeholder,
-.eightSection input[type="tel"]:-moz-placeholder,
-.eightSection input[type="text"]:-moz-placeholder,
-.eightSection input[type="url"]:-moz-placeholder,
-.eightSection textarea:-moz-placeholder {
+.contactForm input:not([type]):-moz-placeholder,
+.contactForm input[type="datetime"]:-moz-placeholder,
+.contactForm input[type="email"]:-moz-placeholder,
+.contactForm input[type="number"]:-moz-placeholder,
+.contactForm input[type="password"]:-moz-placeholder,
+.contactForm input[type="search"]:-moz-placeholder,
+.contactForm input[type="tel"]:-moz-placeholder,
+.contactForm input[type="text"]:-moz-placeholder,
+.contactForm input[type="url"]:-moz-placeholder,
+.contactForm textarea:-moz-placeholder {
   color: #5f5d5d;
 }
-.eightSection input:not([type])::-moz-placeholder,
-.eightSection input[type="datetime"]::-moz-placeholder,
-.eightSection input[type="email"]::-moz-placeholder,
-.eightSection input[type="number"]::-moz-placeholder,
-.eightSection input[type="password"]::-moz-placeholder,
-.eightSection input[type="search"]::-moz-placeholder,
-.eightSection input[type="tel"]::-moz-placeholder,
-.eightSection input[type="text"]::-moz-placeholder,
-.eightSection input[type="url"]::-moz-placeholder,
-.eightSection textarea::-moz-placeholder {
+.contactForm input:not([type])::-moz-placeholder,
+.contactForm input[type="datetime"]::-moz-placeholder,
+.contactForm input[type="email"]::-moz-placeholder,
+.contactForm input[type="number"]::-moz-placeholder,
+.contactForm input[type="password"]::-moz-placeholder,
+.contactForm input[type="search"]::-moz-placeholder,
+.contactForm input[type="tel"]::-moz-placeholder,
+.contactForm input[type="text"]::-moz-placeholder,
+.contactForm input[type="url"]::-moz-placeholder,
+.contactForm textarea::-moz-placeholder {
   color: #5f5d5d;
 }
-.eightSection input:not([type]):-ms-input-placeholder,
-.eightSection input[type="datetime"]:-ms-input-placeholder,
-.eightSection input[type="email"]:-ms-input-placeholder,
-.eightSection input[type="number"]:-ms-input-placeholder,
-.eightSection input[type="password"]:-ms-input-placeholder,
-.eightSection input[type="search"]:-ms-input-placeholder,
-.eightSection input[type="tel"]:-ms-input-placeholder,
-.eightSection input[type="text"]:-ms-input-placeholder,
-.eightSection input[type="url"]:-ms-input-placeholder,
-.eightSection textarea:-ms-input-placeholder {
+.contactForm input:not([type]):-ms-input-placeholder,
+.contactForm input[type="datetime"]:-ms-input-placeholder,
+.contactForm input[type="email"]:-ms-input-placeholder,
+.contactForm input[type="number"]:-ms-input-placeholder,
+.contactForm input[type="password"]:-ms-input-placeholder,
+.contactForm input[type="search"]:-ms-input-placeholder,
+.contactForm input[type="tel"]:-ms-input-placeholder,
+.contactForm input[type="text"]:-ms-input-placeholder,
+.contactForm input[type="url"]:-ms-input-placeholder,
+.contactForm textarea:-ms-input-placeholder {
   color: #5f5d5d;
 }
 

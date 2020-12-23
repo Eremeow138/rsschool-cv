@@ -53,7 +53,7 @@ function send(event, php){
 //
 // // console.log($(cName));
 // showLoader($(idForm), true);
-    showLoader($('.eightSection'));
+    showLoader($('.contactForm'));
         // подготавливаем модальное окно с сообщением
         let modal = $('#info'),
             message = modal.find('.form__message');
@@ -81,7 +81,7 @@ function send(event, php){
             		// alert("Сообщение отправлено");
                     // Пример с открытием окна
                     // hideLoader($(idForm),true);
-                    hideLoader($('.eightSection'));
+                    hideLoader($('.contactForm'));
                     modal.modal('show');
                     message.html('Your message has been submitted successfully. <br> I will contact you soon.');
             	} else {
@@ -89,7 +89,7 @@ function send(event, php){
             		// alert("Ошибка. Сообщение не отправлено");
                     // Пример с открытием окна
                     // hideLoader($(idForm),true);
-                    hideLoader($('.eightSection'));
+                    hideLoader($('.contactForm'));
                     modal.modal('show');
                     message.html('Error. Your message has not been submitted ');
             	}
@@ -98,7 +98,7 @@ function send(event, php){
             } else {
 
                 // hideLoader($(idForm),true);
-                hideLoader($('.eightSection'));
+                hideLoader($('.contactForm'));
 
                  modal.modal('show'); message.html('Error on server. Number: '+req.status);}};
 
@@ -106,7 +106,7 @@ function send(event, php){
         // req.onerror = function() {alert("Ошибка отправки запроса");};
         req.onerror = function() {
             // hideLoader($(idForm),true);
-            hideLoader($('.eightSection'));
+            hideLoader($('.contactForm'));
 
              modal.modal('show'); message.html('Request sending error');};
         console.log(event.target);
