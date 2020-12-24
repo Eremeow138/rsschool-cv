@@ -656,9 +656,9 @@ p {
 
 /* Middle
  ----------------------------------------------------------------------------- */
-.main__content {
+/* .main__content {
   padding-bottom: auto;
-}
+} */
 
 /* Набросок стилей для шапки
  ----------------------------------------------------------------------------- */
@@ -1726,7 +1726,7 @@ p {
   color: #31b7a9;
 
   transform: translateZ(0);
-  transform: translateX(-50%, -50%);
+  transform: translateX(-50%);
 
   animation-delay: -0.16s;
 }
