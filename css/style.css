@@ -20,10 +20,10 @@
   font-style: normal;
 
   src: url("../fonts/Roboto/Roboto-Thin.eot?") format("eot"),
-  url("../fonts/Roboto/Roboto-Thin.woff2") format("woff2"),
-  url("../fonts/Roboto/Roboto-Thin.woff") format("woff"),
-  url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype"),
-  url("../fonts/Roboto/Roboto-Thin.svg#Roboto") format("svg");
+    url("../fonts/Roboto/Roboto-Thin.woff2") format("woff2"),
+    url("../fonts/Roboto/Roboto-Thin.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype"),
+    url("../fonts/Roboto/Roboto-Thin.svg#Roboto") format("svg");
 }
 @font-face {
   font-weight: 300;
@@ -31,10 +31,10 @@
   font-style: normal;
 
   src: url("../fonts/Roboto/Roboto-Light.eot?") format("eot"),
-  url("../fonts/Roboto/Roboto-Light.woff2") format("woff2"),
-  url("../fonts/Roboto/Roboto-Light.woff") format("woff"),
-  url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"),
-  url("../fonts/Roboto/Roboto-Light.svg#Roboto") format("svg");
+    url("../fonts/Roboto/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto/Roboto-Light.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"),
+    url("../fonts/Roboto/Roboto-Light.svg#Roboto") format("svg");
 }
 @font-face {
   font-weight: normal;
@@ -42,10 +42,10 @@
   font-style: normal;
 
   src: url("../fonts/Roboto/Roboto-Regular.eot?") format("eot"),
-  url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
-  url("../fonts/Roboto/Roboto-Regular.woff") format("woff"),
-  url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
-  url("../fonts/Roboto/Roboto-Regular.svg#Roboto") format("svg");
+    url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
+    url("../fonts/Roboto/Roboto-Regular.svg#Roboto") format("svg");
 }
 @font-face {
   font-weight: bold;
@@ -53,10 +53,10 @@
   font-style: normal;
 
   src: url("../fonts/Roboto/Roboto-Bold.eot?") format("eot"),
-  url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2"),
-  url("../fonts/Roboto/Roboto-Bold.woff") format("woff"),
-  url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"),
-  url("../fonts/Roboto/Roboto-Bold.svg#Roboto") format("svg");
+    url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"),
+    url("../fonts/Roboto/Roboto-Bold.svg#Roboto") format("svg");
 }
 @font-face {
   font-weight: 900;
@@ -64,10 +64,10 @@
   font-style: normal;
 
   src: url("../fonts/Roboto/Roboto-Black.eot?") format("eot"),
-  url("../fonts/Roboto/Roboto-Black.woff2") format("woff2"),
-  url("../fonts/Roboto/Roboto-Black.woff") format("woff"),
-  url("../fonts/Roboto/Roboto-Black.ttf") format("truetype"),
-  url("../fonts/Roboto/Roboto-Black.svg#Roboto") format("svg");
+    url("../fonts/Roboto/Roboto-Black.woff2") format("woff2"),
+    url("../fonts/Roboto/Roboto-Black.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Black.ttf") format("truetype"),
+    url("../fonts/Roboto/Roboto-Black.svg#Roboto") format("svg");
 }
 @font-face {
   font-weight: 500;
@@ -75,10 +75,10 @@
   font-style: normal;
 
   src: url("../fonts/Roboto/Roboto-Medium.eot?") format("eot"),
-  url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"),
-  url("../fonts/Roboto/Roboto-Medium.woff") format("woff"),
-  url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"),
-  url("../fonts/Roboto/Roboto-Medium.svg#Roboto") format("svg");
+    url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto/Roboto-Medium.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"),
+    url("../fonts/Roboto/Roboto-Medium.svg#Roboto") format("svg");
 }
 @font-face {
   font-weight: normal;
@@ -88,13 +88,13 @@
   font-display: block;
   src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w");
   src: url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.eot?vhkw9w#iefix")
-  format("embedded-opentype"),
-  url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.ttf?vhkw9w")
-  format("truetype"),
-  url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.woff?vhkw9w")
-  format("woff"),
-  url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.svg?vhkw9w#portfolio_icons")
-  format("svg");
+      format("embedded-opentype"),
+    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.ttf?vhkw9w")
+      format("truetype"),
+    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.woff?vhkw9w")
+      format("woff"),
+    url("../fonts/portfolio_icons-v1.2/fonts/portfolio_icons.svg?vhkw9w#portfolio_icons")
+      format("svg");
 }
 
 [class^="icon_"],
@@ -102,13 +102,13 @@
   font-weight: normal;
   line-height: 1;
 
-/* use !important to prevent issues with browser extensions that change fonts */
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "portfolio_icons" !important;
   text-transform: none;
   font-style: normal;
   font-variant: normal;
 
-/* Better Font Rendering =========== */
+  /* Better Font Rendering =========== */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,7 +174,7 @@ html {
 html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   /* 2 */
 }
 
@@ -251,10 +251,10 @@ figure {
 hr {
   box-sizing: content-box;
 
-/* 1 */
+  /* 1 */
   height: 0;
 
-/* 1 */
+  /* 1 */
   overflow: visible;
 
   /* 2 */
@@ -280,7 +280,7 @@ pre {
 a {
   background-color: transparent;
 
-/* 1 */
+  /* 1 */
 
   -webkit-text-decoration-skip: objects;
 
@@ -296,12 +296,12 @@ a:focus {
  */
 abbr[title] {
   /* 1 */
-          text-decoration: underline;
-          text-decoration: underline dotted;
+  text-decoration: underline;
+  text-decoration: underline dotted;
 
   border-bottom: none;
 
-/* 2 */
+  /* 2 */
 
   -webkit-text-decoration: underline dotted;
 
@@ -505,17 +505,17 @@ legend {
   display: table;
   box-sizing: border-box;
 
-/* 1 */
+  /* 1 */
   max-width: 100%;
 
-/* 1 */
+  /* 1 */
   padding: 0;
 
-/* 1 */
+  /* 1 */
 
   color: inherit;
 
-/* 3 */
+  /* 3 */
   white-space: normal;
 
   /* 1 */
@@ -528,7 +528,7 @@ legend {
 progress {
   display: inline-block;
 
-/* 1 */
+  /* 1 */
 
   vertical-align: baseline;
 
@@ -550,7 +550,7 @@ textarea {
 [type="radio"] {
   box-sizing: border-box;
 
-/* 1 */
+  /* 1 */
   padding: 0;
 
   /* 2 */
@@ -1301,12 +1301,12 @@ p {
   position: relative;
 
   height: 4px;
-
+  display: block;
   background-color: #c4c4c4;
 }
 .progress__bar {
   height: 4px;
-
+  display: block;
   background-color: #34547a;
 }
 
@@ -1363,15 +1363,19 @@ p {
   display: flex;
   flex-direction: column;
   margin-top: 44px;
+  padding: 0;
 }
 .skill__skillName {
   margin-bottom: 15px;
+  display: block;
 }
 .skill__item {
   position: relative;
 
   margin-bottom: 31px;
   padding-bottom: 0;
+
+  list-style: none;
 }
 
 .skill__image {
@@ -1831,7 +1835,7 @@ p {
   transform: translateZ(0) scale(1);
   transform-origin: 0 0;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   /* see note above */
 }
 
