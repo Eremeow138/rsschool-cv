@@ -1243,6 +1243,24 @@ p {
   color: #34547a;
 }
 
+.clause__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 425px) {
+  .clause__list {
+    flex-direction: row;
+  }
+}
+
+.clause__item {
+  margin: 0 5px 20px 5px;
+}
 .section__title {
   margin: 26px 0;
 
