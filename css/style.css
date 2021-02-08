@@ -1132,8 +1132,8 @@ p {
   }
 }
 .first-screen__left {
-  display: flex;
-  justify-content: center;
+
+  padding: 0 15px;
   width: 100%;
 }
 @media (min-width: 768px) {
@@ -1143,12 +1143,9 @@ p {
 }
 
 .first-screen__avatar {
-  width: 57%;
-  padding-top: 55%;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  width: 65%;
   border: 10px solid #34547a;
 }
 .first-screen__right {
@@ -1164,7 +1161,6 @@ p {
     align-items: flex-start;
     width: 50%;
     margin-top: 0;
-    margin-left: -50px;
     padding: 0 15px;
   }
 }
