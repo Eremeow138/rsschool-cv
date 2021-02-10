@@ -115,6 +115,12 @@
   speak: never;
 }
 
+.icon_youtube:before {
+  content: "\e90c";
+}
+.icon_arrow-down:before {
+  content: "\e90b";
+}
 .icon_cat:before {
   content: "\e90a";
 }
@@ -142,12 +148,16 @@
 .icon_vk:before {
   content: "\e908";
 }
+.icon_github:before {
+  content: "\e90d";
+}
 .icon_telegram:before {
   content: "\e900";
 }
 .icon_instagram:before {
   content: "\e901";
 }
+
 
 * {
   box-sizing: border-box;
@@ -874,6 +884,11 @@ p {
   .footer__developer {
     align-items: flex-start;
   }
+}
+.footer__rss{
+  display: block;
+  width: 100px;
+  margin-bottom: 10px;
 }
 .footer__name {
   margin-bottom: 15px;
