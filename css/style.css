@@ -1416,7 +1416,7 @@ p {
 }
 .experience__item {
   width: 100%;
-  margin: 30px 15px 0;
+  margin: 0 15px 0;
   text-align: center;
 }
 .experience__title {
@@ -1433,7 +1433,7 @@ p {
   display: block;
   width: 100%;
   padding-bottom: 63%;
-
+  border: 6px solid #34547a;
   background: center no-repeat;
   background-size: cover;
 }
